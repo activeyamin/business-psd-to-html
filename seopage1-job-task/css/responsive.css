@@ -1,0 +1,958 @@
+@media (min-width:320px) and ( max-width: 575px) {
+    /* ============================
+        COMMON CSS PART START
+    ============================ */
+        button a {
+            font-size: 13px !important;
+            font-weight: 600 !important;   
+        }
+    
+        p {
+            font-size: 11px !important;
+        }
+        h3{
+            font-size: 20px !important;
+            font-weight: 600 !important;
+            text-align: center;
+            width: 300px;
+        }
+        /* =========================
+        COMMON CSS END
+    ========================== */
+        /* =========================
+        HEADER CSS START
+    ========================== */
+        header {
+            padding: 10px 0;
+        }
+        .header_details{
+            width: 300px;
+        }
+        .head_p_rela_pipe {
+            display: none;
+        }
+        .header_details p {
+            font-style: normal;
+            display: block;
+            margin: 0 5px;
+        }
+        /* =========================
+        HEADER CSS END
+    ========================== */
+        /* =========================
+        NAVBAR CSS START
+    ========================== */
+        .nav_seopage1_logo {
+            width: 70px;
+            height: 40px;
+        }
+        nav {
+            height: 60px;
+        }
+        .navbar-toggler {
+            padding: 5px;
+            font-size: 16px;
+        }
+        .navbar-collapse {
+            background: #020e28;
+            z-index: 999;
+            padding-bottom: 20px;
+            margin-top: 3px;
+        }
+        nav ul li a {
+            color: #f1f1f1 !important;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        nav ul li .nav_after_active::after {
+            width: 16%;
+            height: 1px;
+            left: 100px;
+            bottom: 5px;
+        }
+        nav ul li .nav_menu_border_btm {
+            height: 1px;
+            left: 38%;
+            bottom: 5px;
+        }
+        nav ul {
+            text-align: center;
+            margin-top: 20px;
+            margin-left: 0%;
+        }
+        .nav_btn {
+            width: 142px;
+            height: 35px;
+            margin: 10px 0;
+        }
+        nav ul li:hover .nav_menu_border_btm {
+            width: 21%;
+        }
+        /* =========================
+        NAVBAR CSS END
+    ========================== */
+        /* =========================
+        HERO CSS START
+    ========================== */
+        .hero_slider_inner_content {
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+        .hero_slider_item h2 {
+            font-size: 28px;
+            width: 300px;
+            font-weight: 700;
+            text-align: center;
+        }
+        .hero_slider_item h5 {
+            margin-top: 10px;
+            width: 300px;
+            font-size: 17px;
+            text-align: center;
+        }
+        .hero_slider_item {
+            display: block !important;
+        }
+        .hero_slider_inner_img {
+            height: 290px;
+            width: 295px;
+        }
+        #hero_part .slick-dots {
+            margin-left: 8%;
+        }
+        /* =========================
+        HERO CSS END
+    ========================== */
+        /* =========================
+        HERO BOTTOM CSS START
+    ========================== */
+        #hero_btm_part {
+            padding-top: 40px;
+        }
+        .hero_btm_item {
+            padding: 20px 10px 0px 0px;
+            width: auto;
+            text-align: center;
+            height: auto;
+        }
+        .hero_btm_item_icon {
+            width: 50px;
+            height: 40px;
+            display: block;
+            text-align: center;
+            margin: 20px 12%;
+        }
+        .hero_btm_item_icon h3 {
+            margin-left: -110px;
+            width: 270px;
+        }
+        .hero_btm_item_title p {
+            margin: 40px 15px;
+            width: 270px;
+            text-align: center;
+        }
+        /* =========================
+        HERO BOTTOM CSS END
+    ========================== */
+        /* =========================
+        ABOUT CSS START
+    ========================== */
+        #about_part {
+            padding-top: 40px;
+        }
+        .about_img_round {
+            width: 300px;
+            height: auto;
+            padding: 0 10px;
+        }
+        .about_details {
+            padding: 30px 15px;
+            margin-top: 0px;
+            width: 300px;
+            text-align: center;
+        }
+        .about_details p {
+            margin-top: 20px;
+        }
+        .about_details h3::after {
+            width: 95px;
+            height: 1px;
+            bottom: -3px;
+            left: 44%;
+        }
+        /* =========================
+        ABOUT CSS END
+    ========================== */
+        /* =========================
+        ENGINE CSS START
+    ========================== */
+        #engine_part {
+            margin-top: 40px;
+        }
+        .engine_item {
+            padding: 25px 0;
+            text-align: center;
+            width: 300px;
+        }
+        .engine_item_img {
+            width: 50px;
+            margin: 0 auto;
+        }
+        .engin_commont_item_p_padd {
+            padding-right: 0;
+        }
+        .engine_item h3::after {
+            bottom: -10px;
+            left: 34%;
+        }
+        
+        /* =========================
+        ENGINE CSS END
+    ========================== */
+        /* =========================
+        BRAND CSS START
+    ========================== */
+    #brand_part {
+        padding: 30px 0;
+    }
+    .brand_details_item {
+        margin-top: 20px;
+        width: 300px;
+        text-align: center;
+    }
+    .brand_left_item_padd {
+        padding-right: 10px;
+        margin-bottom: 30px;
+    }
+   .brand_row_tex_padd {
+       padding: 30px 15px;
+       text-align: center;
+   }
+    .brand_details_item h4 {
+        font-weight: 500;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+    .brand_title h3::after {
+        bottom: -5px;
+        left: 12%;
+    }
+    .brand_img_item_box {
+        height: 270px;
+        width: 270px;
+        margin-left: 15px;
+    }
+    .brand_item_pic2 {
+        top: 170px;
+        left: -15px;
+        width: 270px;
+        height: 300px;
+    }
+    .brand_last_item_marg {
+        padding: 30px 0;
+    }
+        /* =========================
+        BRAND CSS END
+    ========================== */
+        /* =========================
+        REQUEST CSS START
+    ========================== */
+        .request_main_item {
+            height: auto;
+            width: auto;
+            margin: 0px 0;
+        }
+         #request_part {
+             margin-top: 200px;
+             height: 290px;
+             width: auto;
+         }
+        .request_item_content {
+            padding: 30px 10px 30px 20px;
+            top: 160px;
+            margin-left: -17%;
+            transform: translate(50%, -50%);
+            width: 330px;
+            text-align: center;
+        }
+        .request_item_content p {
+            margin: 15px 0;
+        }
+        .request_btn {
+            width: 120px;
+            padding: 10px;
+        }
+        /* =========================
+        REQUEST CSS END
+    ========================== */
+        /* =========================
+        FOOTER CSS START
+    ========================== */
+        .footer_contact_padd_row {
+            padding-top: 40px;
+        }
+        .footer_item_text {
+            text-align: center;
+            width: 300px;
+        }
+        .footer_item_icons {
+            margin-bottom: 20px;
+            text-align: center;
+            width: 300px;
+        }
+        .footer_item {
+            text-align: center;
+            width: 300px;
+            margin-top: 20px;
+        }
+        .footer_logo {
+            width: 100px;
+            height: 30px;
+            margin: 0px auto;
+        }
+        .footer_item_icons2 span {
+            margin-right: 0px;
+            display: block;
+        }
+        .footer_item_icons2 a {
+            margin: 2px 0;
+        }
+        .footer_item_text p {
+            margin: 15px 0;
+        }
+        /* =========================
+        FOOTER CSS END
+    ========================== */
+}
+@media (min-width:576px) and ( max-width: 767px) {
+    /* ============================
+        COMMON CSS PART START
+    ============================ */
+    button a {
+        font-size: 13px !important;
+        font-weight: 600 !important;
+    }
+
+    p {
+        font-size: 13px !important;
+    }
+
+    h3 {
+        font-size: 24px !important;
+        font-weight: 600 !important;
+        text-align: center;
+    }
+
+    /* =========================
+        COMMON CSS END
+    ========================== */
+    /* =========================
+        NAVBAR CSS START
+    ========================== */
+        nav {
+            height: 70px;
+        }
+        .nav_seopage1_logo {
+            width: 100px;
+            height: 50px;
+        }
+         /* =========================
+            NAVBAR CSS START
+        ========================== */
+         .nav_seopage1_logo {
+             width: 70px;
+             height: 40px;
+         }
+    
+         nav {
+             height: 60px;
+         }
+    
+         .navbar-toggler {
+             padding: 5px;
+             font-size: 16px;
+         }
+    
+         .navbar-collapse {
+             background: #020e28;
+             z-index: 999;
+             padding-bottom: 20px;
+             margin-top: 3px;
+         }
+    
+         nav ul li a {
+             color: #f1f1f1 !important;
+             font-size: 14px;
+             font-weight: 600;
+         }
+    
+         nav ul li .nav_after_active::after {
+            width: 10%;
+            left: 210px;
+            bottom: 6px;
+         }
+          nav ul li .nav_menu_border_btm {
+              margin: 0px;
+              left: 215px;
+             bottom: 5px;
+          }
+    
+         nav ul {
+             text-align: center;
+             margin-top: 20px;
+             margin-left: 0%;
+         }
+    
+         .nav_btn {
+             width: 142px;
+             height: 35px;
+             margin: 10px 0;
+         }
+    
+         nav ul li:hover .nav_menu_border_btm {
+             width: 12%;
+         }
+    
+         /* =========================
+            NAVBAR CSS END
+        ========================== */
+    /* =========================
+        NAVBAR CSS END
+    ========================== */
+    /* =========================
+        HERO CSS START
+    ========================== */
+        .hero_slider_item h2 {
+            font-size: 32px;
+            width: 300px;
+            font-weight: 700;
+            text-align: center;
+        }
+        .hero_slider_item h5 {
+            margin-top: 15px;
+            width: 271px;
+            font-size: 18px;
+            text-align: center;
+        }
+        .hero_slider_inner_content {
+            padding-top: 60px;
+            padding-bottom: 15px;
+        }
+        .hero_slider_inner_img {
+            margin-top: 50px;
+            height: 195px;
+            width: auto;
+        }
+        #hero_part .slick-dots {
+            margin-left: 40%;
+        }
+        #hero_btm_part {
+            padding-top: 30px;
+        }
+        .hero_btm_item {
+            text-align: center;
+            padding: 20px 15px;
+            height: auto;
+            width: auto;
+            margin: 0 auto;
+        }
+          .hero_btm_item_title p {
+              margin-top: 90px;
+              padding: 0 70px;
+          }
+           .hero_btm_item_icon h3 {
+               margin: 10px auto;
+               text-align: center;
+           }
+        .hero_btm_item_icon {
+            margin-left: 38%;
+            display: block;
+        }
+       
+    /* =========================
+        HERO CSS END
+    ========================== */
+    /* =========================
+        ABOUT CSS START
+    ========================== */
+        #about_part {
+            padding-top: 50px;
+        }
+        .about_img_round {
+            width: auto;
+            height: auto;
+            margin: 0 auto;
+        }
+        .about_details {
+            padding: 0px 0px;
+            padding-bottom: 0;
+        }
+        .about_details h3 {
+            width: auto;
+            text-align: left;
+        }
+        .about_details h3::after {
+            bottom: -4px;
+            left: 27%;
+        }
+    /* =========================
+        ABOUT CSS END
+    ========================== */
+    /* =========================
+        ENGINE CSS START
+    ========================== */
+        #engine_part {
+            margin-top: 50px;
+            padding: 30px 0;
+        }
+        .engine_item {
+            padding: 25px 0;
+            text-align: center;
+            width: 515px;
+        }
+        .engine_item h3::after {
+            width: 75px;
+            height: 1px;
+            bottom: -7px;
+            left: 35%;
+        }
+        .engin_commont_item_p_padd {
+            padding-right: 0;
+        }
+        .engine_item_img {
+            width: 50px;
+            margin: 0 auto;
+        }
+    /* =========================
+        ENGINE CSS END
+    ========================== */
+    /* =========================
+        BRAND CSS START
+    ========================== */
+        #brand_part {
+            padding: 40px 0;
+        }
+        .brand_title h3::after {
+            width: 100px;
+            height: 1px;
+            bottom: -9px;
+            left: 27%;
+        }
+        .brand_last_item_marg {
+            padding-top: 0px;
+        }
+        .brand_left_item_padd {
+            padding-right: 0px;
+        }
+        .brand_row_tex_padd {
+            padding: 15px 0px;
+        }
+        .brand_details_item {
+            margin-top: 0px;
+        }
+        .brand_img_item_box {
+            height: 400px;
+            width: auto;
+            margin-left: 25%;
+            margin-top: 40px;
+        }
+        .brand_item_pic1{
+            height: 100%;
+        }
+        .brand_img_item_box img{
+            height: 100%;
+        }
+        .brand_item_pic2 {
+            left: -140px;
+            width: auto;
+            height: 400px;
+        }
+    
+    /* =========================
+        BRAND CSS END
+    ========================== */
+    /* =========================
+        BRAND CSS END
+    ========================== */
+        #request_part {
+            margin-top: 70px;
+        }
+         .request_main_item {
+             height: 300px;
+             width: 515px;
+             margin: 60px 0;
+         }
+         .request_item_content {
+             padding: 20px 15px;
+             top: 50%;
+             margin-left: -35%;
+             transform: translate(50%, -50%);
+             width: 440px;
+         }
+        .request_item_content p {
+            margin: 15px 0;
+        }
+    /* =========================
+        BRAND CSS END
+    ========================== */
+    /* =========================
+        FOOTER CSS START
+    ========================== */
+        .footer_logo {
+            width: 100px;
+            height: 60px;
+            margin: 0px auto;
+        }
+        .footer_contact_padd_row {
+            padding-top: 30px;
+        }
+        .footer_item_text p {
+            margin: 15px 0;
+            font-size: 11px !important;
+        }
+        .footer_item_icons2 {
+            margin-top: 15px;
+        }
+        .footer_item_text h4 {
+            font-size: 13px;
+            font-weight: 400;
+        }
+        .footer_item_icons2 ul li {
+            font-size: 12px;
+        }
+         .footer_item_icons2 a {
+             margin: 0px 0;
+             font-size: 12px;
+         }
+        .nav_btn {
+            width: 140px;
+            height: 34px;
+        }
+        footer {
+            margin-top: 40px;
+        }
+    /* =========================
+        FOOTER CSS END
+    ========================== */
+}
+@media (min-width:991px) and (max-width: 1199px) {
+    /* ============================
+            COMMON CSS PART START
+        ============================ */
+        button a {
+            font-size: 14px !important;
+            font-weight: 600 !important;
+        }
+    
+        p {
+            font-size: 13px !important;
+        }
+    
+        h3 {
+            font-size: 20px !important;
+            font-weight: 600 !important;
+            text-align: center;
+            width: 300px;
+        }
+    
+        /* =========================
+            COMMON CSS END
+        ========================== */
+        /* =========================
+            HEADER CSS START
+        ========================== */
+       
+        /* =========================
+            HEADER CSS END
+        ========================== */
+        /* =========================
+            NAVBAR CSS START
+        ========================== */
+        .nav_seopage1_logo {
+            width: 90px;
+            height: 40px;
+        }
+    
+        nav {
+            height: 80px;
+        }
+    
+        .navbar-toggler {
+            padding: 10px;
+            font-size: 18px;
+        }
+    
+        .navbar-collapse {
+            background: #020e28;
+            z-index: 999;
+            padding-bottom: 20px;
+            margin-top: 22px;
+        }
+    
+        nav ul li a {
+            color: #f1f1f1 !important;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        nav ul li .nav_after_active::after {
+            width: 7%;
+            left: 45%;
+        }
+        nav ul li .nav_menu_border_btm {
+            margin: 0px;
+            height: 1px;
+            left: 45%;
+        }
+    
+        nav ul {
+            text-align: center;
+            margin-top: 20px;
+            margin-left: 0%;
+        }
+    
+        .nav_btn {
+            width: 142px;
+            height: 35px;
+            margin: 10px 0;
+        }
+        nav ul li:hover .nav_menu_border_btm {
+            width: 8%;
+            left: 46%;
+        }
+    
+        /* =========================
+            NAVBAR CSS END
+        ========================== */
+        /* =========================
+            HERO CSS START
+        ========================== */
+            .hero_slider_inner_content {
+                padding-top: 100px;
+                padding-bottom: 0px;
+            }
+            .hero_slider_item h2 {
+                font-size: 37px;
+                width: 275px;
+                font-weight: 700;
+            }
+            .hero_slider_item h5 {
+                margin-top: 30px;
+                width: 280px;
+                font-size: 22px;
+            }
+            .hero_slider_inner_img {
+                height: auto;
+                width: auto;
+            }
+            #hero_btm_part {
+                padding-top: 60px;
+            }
+            .hero_btm_item {
+                background: #ffffff;
+                height: 230px;
+                padding: 15px 10px;
+                text-align: center;
+            }
+            .hero_btm_item_icon h3 {
+                font-size: 22px !important;
+                font-weight: 600 !important;
+                margin-left: 50px;
+            }
+        /* =========================
+            HERO CSS END
+        ========================== */
+        /* =========================
+            ABOUT CSS START
+        ========================== */
+            #about_part {
+                padding-top: 60px;
+            }
+            .about_img_round {
+                width: auto;
+                height: auto;
+            }
+            .about_details {
+                padding: 60px 10px;
+            }
+           
+        /* =========================
+            ABOUT CSS END
+        ========================== */
+        /* =========================
+            ENGINE CSS START
+        ========================== */
+            #engine_part {
+                margin-top: 60px;
+                padding: 30px 0;
+            }
+            .engine_item {
+                padding: 25px 0;
+            }
+            .engine_item h3 {
+                margin: 15px 0;
+                text-align: left;
+            }
+            .engine_item_pera_marg1 {
+                padding-right: 60px;
+            }
+            .engine_item_pera_marg2 {
+                padding-right: 5px;
+            }
+            .engine_item_pera_marg3 {
+                padding-right: 0px;
+            }
+        
+        /* =========================
+            ENGINE CSS END
+        ========================== */
+        /* =========================
+            BRAND CSS START
+        ========================== */
+            .brand_details_item {
+                margin-top: 30px;
+            }
+            .brand_item_pic2 {
+                width: 315px;
+                height: auto;
+            }
+            .brand_img_item_box {
+                height: auto;
+                width: 300px;
+                margin-left: 148px;
+            }
+            .brand_title h3 {
+                text-align: left;
+            }
+            .brand_row_tex_padd {
+                padding: 30px 0 10px 0;
+            }
+            .brand_last_item_marg {
+                padding-top: 40px;
+            }
+        /* =========================
+            BRAND CSS END
+        ========================== */
+        /* =========================
+            REQUEST CSS START
+        ========================== */
+        #request_part {
+            background-size: contain;
+        }
+        .request_main_item {
+            height: 240px;
+            width: auto;
+            margin: 40px 0;
+            background-size: contain;
+        }
+        .request_item_content {
+            padding: 20px 15px;
+            top: 50%;
+            margin-left: 25%;
+            transform: translate(50%, -50%);
+            width: 400px;
+        }
+        .request_item_content h3 {
+            font-size: 35px;
+        }
+        .request_item_content p {
+            margin: 10px 0;
+        }
+        .footer_logo {
+            width: 80px;
+            height: 30px;
+        }
+        /* =========================
+            REQUEST CSS END
+        ========================== */
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+    /* ============================
+            COMMON CSS PART START
+        ============================ */
+        button a {
+            font-size: 13px !important;
+            font-weight: 600 !important;
+        }
+    
+        p {
+            font-size: 13px !important;
+        }
+    
+        h3 {
+            font-size: 26px !important;
+            font-weight: 600 !important;
+        }
+    
+        /* =========================
+            COMMON CSS END
+        ========================== */
+        /* =========================
+            HERO CSS PART
+        ========================== */
+        #hero_btm_part {
+            padding-top: 80px;
+        }
+        .hero_slider_inner_img {
+            margin-top: 20px;
+            height: 470px;
+            width: auto;
+        }
+        .hero_slider_inner_content {
+            padding-top: 150px;
+            padding-bottom: 0px;
+        }
+        .hero_slider_item h2 {
+            font-size: 42px;
+        }
+        .hero_slider_item h5 {
+            margin-top: 20px;
+            width: 360px;
+            font-size: 22px;
+        }
+        .hero_btm_item_icon h3 {
+            margin-left: 0px;
+        }
+        /* =========================
+            HERO CSS END
+        ========================== */
+        /* =========================
+            ENGINE CSS START
+        ========================== */
+        .engine_item {
+            padding: 40px 0;
+        }
+        /* =========================
+            ENGINE CSS END
+        ========================== */
+}
+@media (min-width:1400px) and (max-width: 1600px) {
+    /* =========================
+            HERO CSS END
+        ========================== */
+        .hero_slider_item h2 {
+            font-size: 48px;
+        }
+        .hero_slider_item h5 {
+            font-weight: 400;
+            width: 400px;
+            font-size: 24px;
+        }
+        .hero_slider_inner_content {
+            padding-top: 170px;
+            padding-bottom: 0px;
+        }
+        .hero_btm_item_icon h3 {
+            font-size: 26px;
+            margin-left: 0;
+        }
+        .engine_item {
+            padding: 40px 0;
+        }
+        .engine_item h3 {
+            margin: 15px 0;
+            font-size: 26px;
+        }
+        /* =========================
+                HERO CSS END
+            ========================== */
+}

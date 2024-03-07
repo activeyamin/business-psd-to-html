@@ -1,0 +1,564 @@
+/* ============================
+    COMMON CSS PART START
+============================ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+button a{
+    font-size: 16px;
+    font-weight: 800;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+img{
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    margin: 0 auto;
+    width: 1140px;
+}
+/* 
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+*/
+/* =========================
+    COMMON CSS END
+========================== */
+/* =========================
+    HEADER PART CSS START
+========================== */
+header{
+    padding: 25px 0;
+    background: #020e28;
+}
+.header_p_teg_color{
+    color: #e1e1e1;
+}
+.head_p_rela_pipe{
+    color: #e1e1e1;
+    margin-right: 15px;
+}
+.header_pipe_shape{
+    width: 2px;
+    height: 20px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #e1e1e1;
+}
+.header_details p{
+    font-style: normal;
+    display: inline-block;
+    margin: 0 20px;
+}
+.header_details i{
+    margin: 0 20px;
+}
+/* =========================
+    HEADER PART CSS END
+========================== */
+/* =========================
+    NAVBAR PART CSS START
+========================== */
+nav{
+    height: 100px;
+    background: #ffffff;
+}
+.nav_seopage1_logo{
+    width: 130px;
+    height: 70px;
+}
+nav ul{
+    margin-left: 15%;
+}
+nav ul li a{
+    color: #020e28 !important;
+}
+
+nav ul li{
+    margin: 0 15px;
+    font-weight: 800;
+}
+.nav_after_active{
+    color: #fdbe00 !important;
+}
+nav a:hover{
+    color: #fdbe00 !important;
+}
+nav ul li a{
+    position: relative;
+}
+nav ul li .nav_after_active::after{
+    width: 80%;
+    height: 2px;
+    content: "";
+    bottom: -32px;
+    left: 0;
+    margin: 0 10px;
+    background: #fdbe00;
+    position: absolute;
+}
+nav .nav-item{
+    position: relative;
+}
+nav ul li .nav_menu_border_btm{
+    width: 0;
+    height: 2px;
+    content: "";
+    bottom: -28px;
+    left: 0;
+    margin: 0 10px;
+    background: #fdbe00;
+    position: absolute;
+    transition: .4s;
+}
+nav ul li:hover .nav_menu_border_btm{
+    width: 80%;
+}
+.nav_btn{
+    border: none;
+    width: 180px;
+    height: 44px;
+    overflow: hidden;
+    background: url('../images/nav_btn_bg.png') no-repeat center;
+    background-size: cover;
+}
+/* =========================
+    NAVBAR PART CSS END
+========================== */
+/* =========================
+    HERO PART CSS START
+========================== */
+#hero_part{
+    background: url('../images/hero_pic.png') no-repeat center;
+    background-size: cover;
+}
+.hero_slider_item{
+    display: flex !important;
+    color: #e1e1e1;
+    text-transform: uppercase;
+}
+.hero_slider_inner_content{
+    padding-top: 230px;
+    padding-bottom: 200px;
+}
+.hero_slider_inner_img {
+    margin-top: 20px;
+    height: 640px;
+    width: 660px;
+}
+.hero_slider_inner_img img{
+    width: 100%;
+    height: 100%;
+}
+.hero_btm_item_icon h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.hero_slider_item h2{
+    font-size: 64px;
+    width: 500px;
+    font-weight: bold;
+}
+.hero_slider_item h5{
+    font-weight: 400;
+    margin-top: 30px;
+    width: 500px;
+    font-size: 29px;
+}
+#hero_part .slick-dots {
+    margin-left: 70%;
+    position: relative;
+}
+#hero_part .slick-dots li{
+    display: inline-block;
+}
+#hero_part .slick-dots li button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    margin: 30px 5px;
+    border-radius: 50%;
+    line-height: 10px;
+    border: 2px solid white;
+    background: transparent;
+}
+ #hero_part .slick-dots .slick-active button {
+     background: #007dff
+ }
+/* =========================
+    HERO PART CSS END
+========================== */
+/* =========================
+    HERO BOTTOM PART CSS START
+========================== */
+#hero_btm_part{
+    padding-top: 100px;
+}
+.hero_btm_box_item_bg_shadow {
+    box-shadow: 1px 1px 11px 4px rgba(247, 247, 247, 1);
+        -webkit-box-shadow: 1px 1px 11px 4px rgba(247, 247, 247, 1);
+        -moz-box-shadow: 1px 1px 11px 4px rgba(247, 247, 247, 1);
+}
+
+.hero_btm_item{
+    background: #ffffff;
+    height: 220px;
+    padding: 30px 10px 30px 30px;
+}
+.hero_btm_middle_item_border{
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+.hero_btm_item_title p {
+    margin: 20px 0;
+}
+
+.hero_btm_item_icon {
+    width: 80px;
+    height: 70px;
+    display: flex;
+}
+/* =========================
+    HERO BOTTOM PART CSS END
+========================== */
+/* =========================
+    ABOUT PART CSS START
+========================== */
+#about_part{
+    padding-top: 100px;
+}
+.about_img_round{
+    width: 415px;
+    height: 415px;
+    border-radius: 50%;
+}
+.about_details{
+    padding: 100px 15px;
+}
+.about_details h3{
+    font-size: 36px;
+    font-weight: bold;
+    position: relative;
+}
+.about_details h3::after{
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    content: "";
+    background: #007dff;
+}
+.about_details p{
+    margin-top: 40px;
+}
+
+/* =========================
+    ABOUT PART CSS END
+========================== */
+/* =========================
+    ENGINE PART CSS START
+========================== */
+#engine_part{
+    margin-top: 90px;
+    background: url('../images/engine_part_bg.png') no-repeat center;
+    background-size: cover;
+}
+.engine_item{
+    color: #e1e1e1;
+    padding: 50px 0;
+    position: relative;
+}
+.engine_item_img{
+    width: 50px;
+}
+.engine_item h3 {
+    margin: 20px 0;
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+}
+.engine_item h3::after {
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    content: "";
+    background: #007dff;
+}
+.engine_item_pera_marg{
+    margin-top: 30px;
+}
+.engin_commont_item_p_padd{
+    padding-top: 15px;
+}
+.engine_item_pera_marg1 {
+    padding-right: 80px;
+}
+.engine_item_pera_marg2{
+    padding-right: 70px;
+}
+.engine_item_pera_marg3{
+    padding-right: 65px;
+}
+.engine_item_pera_marg3{
+    padding-right: 70px;
+}
+.engine_details_color {
+    position: relative;
+    color: #e1e1e1;
+    
+}
+/* =========================
+    ENGINE PART CSS END
+========================== */
+/* =========================
+    TOP BRAND PART CSS START
+========================== */
+#brand_part{
+    padding: 60px 0;
+}
+.brand_row_tex_padd {
+    padding: 60px 0 50px 0;
+}
+.brand_left_item_padd{
+    padding-right: 30px;
+}
+.brand_details_item{
+    margin-top: 60px;
+}
+.brand_details_item h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.brand_last_item_marg{
+    padding-top: 60px;
+}
+.brand_title h3 {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px 0;
+    position: relative;
+    color: #020e28;
+    text-transform: uppercase;
+}
+.brand_title h3::after {
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    content: "";
+    background: #007dff;
+}
+.brand_img_item_box{
+    position: relative;
+    height: 490px;
+    width: 390px;
+    margin-left: auto;
+}
+.brand_item_pic2 {
+    position: absolute;
+    top: -20px;
+    left: -140px;
+    width: 390px;
+    height: 490px;
+}
+/* =========================
+    TOP BRAND PART CSS END
+========================== */
+/* =========================
+    REQUEST PART CSS START
+========================== */
+#request_part{
+    background: url('../images/request_part_bg.png') no-repeat center;
+    background-size: cover;    
+}
+.request_main_item{
+    height: 370px;
+    width: 75%;
+    margin: 80px 0;
+    position: relative;
+    background: url('../images/request_part_item_pic.png') no-repeat center;
+    background-size: cover;
+}
+.request_item_content {
+    background: #141d32;
+    color: #e1e1e1;
+    padding: 50px 60px 35px 40px;
+    position: absolute;
+    top: 50%;
+    margin-left: -46%;
+    transform: translate(96%, -50%);
+    width: 775px;
+}
+.request_item_content h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 35px;
+}
+.request_item_content p{
+    margin: 25px 0;
+}
+.request_btn{
+    height: 30px;
+    line-height: 0px;
+    width: 150px;
+    border: none;
+    background: #007dff;
+    border-radius: 15px;
+    padding: 10px;
+}
+.request_btn a {
+    color: #e1e1e1;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* =========================
+    REQUEST PART CSS END
+========================== */
+/* =========================
+    REQUEST PART CSS END
+========================== */
+footer{
+    padding-top: 40px;
+    background: #020e28;
+    color: #e1e1e1;
+}
+.footer_contact_padd_row{
+    padding-top: 60px;
+}
+.footer_logo{
+    width: 150px;
+    height: 80px;
+    margin: 0px auto;
+}
+.footer_item_icons{
+    margin-bottom: 20px;
+}
+.footer_item_text h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer_item_text p{
+    font-size: 14px;
+    margin: 30px 0;
+}
+.footer_item_icons a{
+    font-size: 12px;
+    margin-right: 15px;
+    font-weight: 300;
+    padding: 10px;
+    border-radius: 10px;
+    color: #e1e1e1;
+    background: #000000;
+}
+.footer_item_icons2{
+    margin-top: 20px;
+}
+.footer_item_icons2 span{
+    margin-right: 10px;
+}
+.footer_item_icons2 a{
+    margin: 5px 0;
+}
+.get_in_toch_icon_color{
+    color: #f7ba01;
+}
+.footer_item_icons2 ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer_item_icons2 ul li{
+    margin-bottom: 5px;
+}
+.footer_item_pera{
+    margin-top: 20px;
+}
+.footer_request_btn {
+    margin-top: 20px;
+}
+.footer_request_btn a{
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer_copyright_item{
+    background: #000818;
+    padding: 15px 0;
+    text-align: center;
+}
+.footer_copyright_item p{
+    font-size: 12px;
+    font-weight: 300;
+}
+/* =========================
+    REQUEST PART CSS END
+========================== */
